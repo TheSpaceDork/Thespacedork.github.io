@@ -161,9 +161,18 @@ background: linear-gradient(400deg, rgba(0,0,0,1) 34%, rgba(255,69,0,1) 97%);
 }
 @media only screen and (max-width: 1000px){
     .nav-btn{
-        width: 50%;
+        width: 60%;
         border: none;
         visibility: hidden;
+    }
+    nav a{
+         text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
     }
     nav{
         
