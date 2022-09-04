@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tee's menagerie</title>
+    <link rel="stylesheet" href="nunchucks.css">
+   <link rel="stylesheet" href="nunchucks.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <main>
+        <span class="material-symbols-outlined"  id="menu" media="max-width:1000px" onclick="myFunction()">
+            menu
+            </span>
+        <nav id="nav">
+            <span  class="material-symbols-outlined" media="max-width:1000px" onclick="myFunction()">
+                close
+                </span>
+            <div>
+            <a href="id">Forum</a>
+            <a href="https://animepahe.com/" target="_blank">Anime</a>
+            <a href="https://twitter.com/ChuxTreasure" target="_blank">Write Ups</a>
+            <a href="wallpaper.html" target="_blank">Wallpapers</a>
+            <a href="https://tfpdl.se/tag/pc-games/" target="_blank">Games</a>
+            <a href="https://tfpdl.se/category/movies/" target="_blank">Movies</a>
+        </div>
+            <button class="nav-btn">Sign In/Sign Up</button>
+        </nav>
+        <section class="first" id="decription">
+            <div>
+            <h1>Introduction</h1>
+            <img class="intro-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3Xgf6VU72PqbpfNDI_F7ZmQbogk16i0b6g&usqp=CAU"> 
+            <p>This is the home of randomness, where any and everything youre looking for can be found. In the options above you will find a few of the facilities availaible hosted on the menu just give it a click and enjoy.</p>
+            </div>
+           </section>
+           <section class="second">
+            <form class="yellow" action="mailto:treasurechux@gmail.com">
+                <label for="name">Name:
+                    <input type="name" id="name" placeholder="Enter Your Name">
+                </label>
+                   
+                <label for="email">
+                    Email:
+                    <input type="email" id="email" required placeholder="Enter Your Email">
+                </label>
+                
+                <label for="age">Age:
+                    <input type="number" id="age" min="12" max="100" placeholder="Age">
+                </label>
+                <label>Password:
+                    <input type="password" placeholder="Enter A Password" >
+                </label>
+                <label for="text">Suggestions
+                    <textarea name="text" id="" cols="30" rows="10"></textarea>     
+                           </label>
+                           <button id="submit" type="submit" >Submit</button>
+            </form>
+           </section>
+           <section class="third">
+          <div>
+            <span class="material-symbols-outlined">
+                mood
+                </span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ab similique vero, provident fugiat dicta maxime obcaecati unde optio rem omnis id suscipit itaque nulla ipsa nesciunt accusamus sint praesentium.</p>
+          </div>
+          <div>
+            <span class="material-symbols-outlined">
+                mood
+                </span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ratione at voluptate, placeat quisquam, odit possimus ut iste consequuntur ipsum aperiam ducimus necessitatibus suscipit voluptates libero amet deserunt ex reprehenderit.</p>
+          </div>
+          <div>
+            <span class="material-symbols-outlined">
+                mood
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, cumque vero voluptates ea similique eius quisquam unde sapiente iusto repellat illum aperiam labore expedita itaque minus, enim ipsum doloribus eos!</p>
+          </div>
+           </section>
+           <footer>
+           
+            <h3>Contact Us</h3>
+            <a href="https://www.instagram.com/des.nit_/" target="_blank">
+            <img class="intagram" src="imagesic/instagrammain.png" alt="instagram">
+        </a>
+        <a href="https://twitter.com/ChuxTreasure">
+            <img src="imagesic/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.linkedin.com/checkpoint/challenge/AgFHAx65mPj4gQAAAYMHiX6Vo6agQvx-m98D1irEFUzPwkpKQrvLUYsCmfPhps12aSv1iS2QbdLXpSlB2CN6JjZUlcSv5A?ut=2QwJfD2T" target="_blank">
+            <img src="imagesic/linkedin.png" alt="Linkedin">
+        </a>
+             <p>	&copy;Tee</p>
+           </footer>
+    </main>
+</body>
+</html>

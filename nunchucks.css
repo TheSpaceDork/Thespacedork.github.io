@@ -1,0 +1,228 @@
+*{
+    font-family: Poppins;
+}
+body{
+font-family:Poppins;
+ margin: 0;
+   padding-right: 0;
+   padding:0;
+   color:white;
+   background-color: black;
+   padding-bottom: 0;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 0 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+nav a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 2px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+nav a:hover{
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+}
+.nav-btn{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: orangered;
+    color:white;
+    font-family: Poppins;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.first{
+   background-color:black;
+ width: 100%;
+ height: 40vh;
+ padding-top: 10px;
+}
+.intro-img{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 45px;
+    max-width: 180px;
+    min-width: 170px;
+    float: right;
+}
+.first h1{
+    display: inline-block;
+    
+    
+    text-align: center;
+    
+}
+.first div{
+    width: 40%;
+    max-width: 60%;
+margin: auto;
+}
+.second{
+    background-color: black ;
+    width: 100%;
+    height: 130VH;
+    
+margin: 0;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;padding-top: 10PX;
+}
+.yellow{
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+   margin-top: 50PX;
+   border-radius: 12px;
+   padding: 65px;
+   background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+
+input{
+    width:40vw;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-family: Poppins;
+    
+    margin-bottom: 30px;
+}
+::placeholder{
+    color: white;
+}
+label{
+    color: white;
+    width: 20px;
+   display: block;
+}
+#submit{
+    padding:7px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    visibility: hidden;
+}
+.third{
+    background: rgb(0,0,0);
+ color: white;
+width: 80%;
+height: 60vh;
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+flex-direction: row;
+margin: auto;
+}
+.third div{
+    width: 20%;
+    margin-top: 33px;
+}
+.third span{
+    color: orangered;
+}
+footer img{
+    width:30px;
+    height: 30px;
+    margin-right: 15px;
+}
+footer{
+    background: rgb(0,0,0);
+background: linear-gradient(400deg, rgba(0,0,0,1) 34%, rgba(255,69,0,1) 97%);
+    margin-bottom: -30px;
+    padding: 30px;
+}
+.instagram{
+    cursor:pointer;
+}
+@media only screen and (max-width: 1000px){
+    .nav-btn{
+        width: 50%;
+        border: none;
+        visibility: hidden;
+    }
+    nav{
+        
+        background-color: rgba(0,0, 0,0.8);
+        height: 100vh;
+        position: absolute;
+        z-index: 90;
+       display: flex;
+       justify-content: space-between;
+       padding-top: 20px;
+        width: 40%;
+flex-direction: column;
+-webkit-transition:all 0.3s ease-in-out; 
+transition:all 0.3s ease-in-out;
+
+    }
+   
+    .material-symbols-outlined{
+        margin-left:20px ;
+        cursor: pointer;
+        margin-left: 40px;
+        display: block;
+        visibility: visible;
+       position: absolute;
+        right: 4px;
+     color: orangered;
+     -webkit-transition:all 0.3s ease-in-out; 
+     transition:all 0.3s ease-in-out;
+     
+    }
+  
+   nav div{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 60%;
+   }
+    .third{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .third div{
+        width:80%;
+        margin: auto;
+    text-align: center;
+    }
+    footer{
+        margin-top:40px;
+        position: absolute;
+        bottom: -1600px;
+        left: 0;
+        right: 0;
+        z-index: 77;
+    }
+    body{
+        height:100%;
+    }
+    .first{
+        margin-bottom: 200px;
+    }
+}
