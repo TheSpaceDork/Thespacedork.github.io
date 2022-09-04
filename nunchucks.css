@@ -204,7 +204,7 @@ transition:all 0.3s ease-in-out;
     .third{
         flex-direction: column;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
     .third div{
         width:80%;
@@ -214,7 +214,7 @@ transition:all 0.3s ease-in-out;
     footer{
         margin-top:40px;
         position: absolute;
-        bottom: -1600px;
+        bottom: -1650px;
         left: 0;
         right: 0;
         z-index: 77;
@@ -223,6 +223,6 @@ transition:all 0.3s ease-in-out;
         height:100%;
     }
     .first{
-        margin-bottom: 200px;
+        margin-bottom: 300px;
     }
 }
