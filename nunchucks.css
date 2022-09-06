@@ -213,7 +213,7 @@ transition:all 0.3s ease-in-out;
     .third{
         flex-direction: column;
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
     .third div{
         width:80%;
@@ -221,9 +221,9 @@ transition:all 0.3s ease-in-out;
     text-align: center;
     }
     footer{
-        margin-top:45px;
+        margin-top:15px;
         position:relative;
-        bottom: -1650px;
+        bottom: 0;
         left: 0;
         right: 0;
         z-index: 77;
